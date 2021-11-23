@@ -1,0 +1,20 @@
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 30px;
+}
+
+.line {
+    background: white;
+    height: 3px;
+}
+
+.line:first-child.active {
+    transform: rotate(45deg);
+}
+
+.line:last-child.active {
+    transform: rotate(-45deg);
+}
